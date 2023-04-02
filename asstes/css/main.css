@@ -1,0 +1,152 @@
+.btn-1,
+.btn-2 {
+    border-radius: 20px!important
+}
+
+* {
+    font-size: 16px;
+    font-family: Cairo, sans-serif
+}
+
+.p {
+    color: #ff515d
+}
+
+.p1 {
+    color: #ff7a85
+}
+
+.left-company h1,
+.p2 {
+    color: #1f3f5b
+}
+
+.n {
+    color: #fff!important;
+    font-weight: 900
+}
+
+.n1 {
+    color: #c8c8ca
+}
+
+.n3 {
+    color: #4b5761!important;
+    font-weight: 700
+}
+
+.BG {
+    color: #ff8f70
+}
+
+.BG1 {
+    color: #ff3d53
+}
+
+.BGB {
+    color: #2c2d3e
+}
+
+.BGB1 {
+    color: #3e4064
+}
+
+.btn-1,
+.btn-2:hover {
+    color: #fff!important;
+    background-color: #ff3d53!important
+}
+
+#header {
+    background: linear-gradient(45deg, #ff8f70, #ff3d53);
+    padding-bottom: 10%;
+    border-radius: 0 0 0 60px
+}
+
+.btn-1 {
+    font-weight: 600
+}
+
+.btn-2 {
+    color: #ff3d53!important;
+    background-color: #fff!important;
+    margin-left: 1rem;
+    font-weight: 600!important
+}
+
+.about-header h1,
+.state-header h1 {
+    text-align: center;
+    color: #1f3f5b;
+    font-weight: 700
+}
+
+.about-middle h4,
+.left-state h1 {
+    text-align: left;
+    margin-bottom: 1rem
+}
+
+.about-middle h4 {
+    color: #1f3f5b;
+    font-weight: 300
+}
+
+.about-middle,
+.company-middle,
+.state-middle {
+    display: flex;
+    align-items: center
+}
+
+.about-middle p,
+.left-company p {
+    color: #4b5761;
+    font-weight: 200
+}
+
+.state {
+    background: linear-gradient(45deg, #2c2d3e, #3e4064);
+    border-radius: 0 60px
+}
+
+.left-state h1 {
+    color: #fff;
+    font-weight: 300
+}
+
+.state-middle p {
+    color: #fff;
+    font-weight: 200
+}
+
+@media only screen and (max-width:920px) {
+    .about-middle,
+    .company-middle,
+    .state-middle {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+}
+
+#footer {
+    padding-top: 10px;
+    padding-bottom: 80px;
+    background-color: #24242c!important;
+    border-radius: 0 60px 0 0
+}
+
+#footer a {
+    text-decoration: none!important
+}
+
+#footer a:hover {
+    text-decoration: underline!important
+}
+
+.btn-1:hover {
+    color: #ff3d53!important;
+    background-color: #fff!important;
+    opacity: .8
+}
